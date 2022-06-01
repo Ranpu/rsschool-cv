@@ -1,0 +1,1 @@
+https://ranpu.github.io/rsschool-cv/
