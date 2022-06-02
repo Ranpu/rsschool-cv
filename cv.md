@@ -66,3 +66,8 @@ def solution(args):
     return ','.join(final)
 ```
 ---
+
+## **Languages:**
+
+- **Russian** - Native
+- **English** - Intermediate/Upper-intermediate
