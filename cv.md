@@ -14,9 +14,9 @@
 
 ## **Skills and Proficiency:**
 
-- **HTML5, CSS3** *(Beginner)*
-- **JavaScript** *(Beginner)*
-- **Python** *(Junior)*
+- **HTML5, CSS3** - Beginner
+- **JavaScript** - Beginner
+- **Python** - Junior
 - **Adobe Photoshop, CorelDraw** 
 - **Git, GitHub**
 - **VS Code**
