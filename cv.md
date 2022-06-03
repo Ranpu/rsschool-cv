@@ -9,7 +9,7 @@
 - **[LinkedIn](https://www.linkedin.com/in/aleksandr-mikhaylov-3583b0104/)**
 
 ---
-
+## **Briefly About Myself:**
 ---
 
 ## **Skills and Proficiency:**
@@ -65,6 +65,15 @@ def solution(args):
             
     return ','.join(final)
 ```
+
+---
+
+## **Education:**
+
+---
+
+## **Experience:**
+
 ---
 
 ## **Languages:**
