@@ -11,6 +11,7 @@ body {
 }
 
 .header {
+    display: flex;
     background-color: #333;
     color: aliceblue;
     position: fixed;
@@ -18,9 +19,15 @@ body {
     width: 100%;
 }
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
-    max-width: 1000px;
-    padding:  0px 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -28,18 +35,12 @@ body {
     box-sizing: border-box;
 }
 
-.introduce {
-    padding-top: 32px;
-}
-
 .nav-list {
     display: flex;
-    justify-content: right;
-    align-items: center;
+    justify-content: space-around;
     list-style: none;
     text-transform: uppercase;
     line-height: 0px;
-    padding: 0 32 0 32;
 }
 
 .nav-link {
@@ -56,11 +57,13 @@ body {
 }
 
 .block-title {
+    padding-top: 16px;
     text-transform: uppercase;
 }
 
 .avatar {
     height: 300px;
+    border-radius: 50%;
 }
 
 .footer {
@@ -74,9 +77,7 @@ body {
 
 .footer-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
-    line-height: 0px;
-    padding: 0px;
 }

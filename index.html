@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <title>First CV</title>
@@ -10,6 +10,7 @@
             <div class="container">
                 <nav class="nav">
                     <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link" href="#profile">profile</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#summary">summary</a></li>
                         <li class="nav-item"><a class="nav-link" href="#skills">skills</a></li>
@@ -25,27 +26,27 @@
         
         <main class = "main">
             <div class="container">
-                <div class="introduce">
-                    <h1 class="name">Aleksandr Mikhaylov</h1>
+                <section class="section" id="profile">
+                    <h1 class="block-title" id="name">Aleksandr Mikhaylov</h1>
                     <img class="avatar" alt="Avatar" src="./img/avatar.jpg" />
-                    <h2 class="job-title">Beginner FE Developer</h2>
-                </div>
+                    <p class="job-title">Beginner/Future FE Developer</p>
+                </section>
 
-                <div class="contact-block">
-                    <h2 class="block-title"><a id="contact">contact</a></h2>
+                <section class="section" id="contact">
+                    <h2 class="block-title">contact</h2>
                     <ul class="main-list">
                         <li class="main-item">e-mail: <a class='contact-link' href="mailto:alex.mcgee.mail@gmail.com">alex.mcgee.mail@gmail.com</a></li>
                         <li class="main-item">telegram: <a class='contact-link' href="https://t.me/ranpu">@ranpu</a></li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="summary-block">
-                    <h2 class="block-title"><a id="summary">summary</a></h2>
+                <section class="section" id="summary">
+                    <h2 class="block-title">summary</h2>
                     <p>I'm a Beginner Front End Developer with ML Analytic experience.</p>
-                </div>
+                </section>
 
-                <div class="skills-block">
-                    <h2 class="block-title"><a id="skills">skills</a></h2>
+                <section class="section" id="skills">
+                    <h2 class="block-title">skills</h2>
                     <ul class="main-list">
                         <li class="main-item">HTML5, CSS3 - Beginner</li>
                         <li class="main-item">JavaScript - Beginner</li>
@@ -54,10 +55,10 @@
                         <li class="main-item">GitHub, Git</li>
                         <li class="main-item">VS Code</li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="code-block">
-                    <h2 class="block-title"><a id="code">code</a></h2>
+                <section class="section" id="code">
+                    <h2 class="block-title">code</h2>
                     <p><a class="code-task-link" href="https://www.codewars.com/kata/526989a41034285187000de4/javascript">Count IP Addresses KATA from CODEWARS (JavaScript solution):</a></p>
                     <pre>
                         <code>
@@ -99,36 +100,36 @@ def solution(args):
     return ','.join(final)
                         </code>
                     </pre>
-                </div>
+                </section>
 
-                <div class="courses-block">
-                    <h2 class="block-title"><a id="courses">courses</a></h2>
+                <section class="section" id="courses">
+                    <h2 class="block-title">courses</h2>
                     <ul class="main-list">
-                        <li class="main-item"></li>
+                        <li class="main-item">RSSchool Stage0 (In Progress)</li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="projects-block">
-                    <h2 class="block-title"><a id="projects">projects</a></h2>
+                <section class="section" id="projects">
+                    <h2 class="block-title">projects</h2>
                     <ul class="main-list">
                         <li class="main-item"><a href="https://github.com/Ranpu/rsschool-cv/tree/gh-pages">First CV</a></li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="education-block">
-                    <h2 class="block-title"><a id="education">education</a></h2>
+                <section class="section" id="education">
+                    <h2 class="block-title">education</h2>
                     <ul class="main-list">
-                        <li class="main-item"></li>
+                        <li class="main-item">Art College №59, Moscow (2013)</li>
                     </ul>
-                </div>
+                </section>
 
-                <div class="languages-block">
-                    <h2 class="block-title"><a id="languages">languages</a></h2>
+                <section class="section" id="languages">
+                    <h2 class="block-title">languages</h2>
                     <ul class="main-list">
                         <li class="main-item">Russian - Native</li>
                         <li class="main-item">English - Intermediate/Upper-intermediate</li>
                     </ul>
-                </div>
+                </section>
             </div>
         </main>
 
