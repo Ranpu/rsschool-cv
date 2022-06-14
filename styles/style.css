@@ -13,16 +13,23 @@ body {
 .header {
     background-color: #333;
     color: aliceblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1000px;
     padding:  0px 100px;
     margin: auto;
 }
 
 * {
     box-sizing: border-box;
+}
+
+.introduce {
+    padding-top: 32px;
 }
 
 .nav-list {
@@ -38,16 +45,13 @@ body {
 .nav-link {
     color: aliceblue;
     text-decoration: none;
-    padding: 0px 16px;
+    padding: 0px;
     transition: color 0.5s;
     transition: .3s;
+    padding: 0px 10px;
 }
 
 .nav-link:hover {
-    background-color: #111;
-}
-
-.nav-item:hover {
     background-color: #111;
 }
 
@@ -73,6 +77,6 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    text-transform: uppercase;
     line-height: 0px;
+    padding: 0px;
 }
